@@ -1,21 +1,17 @@
 @media (min-width:700px) and (max-width: 1000px)
-{
+{       
     @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@0,250;1,250&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Petrona:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@0,250;1,250&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Petrona:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital@0;1&family=Staatliches&display=swap');
-    
-    
+
+
     body {
         background-color: #e0d7c6;
     }
-    
+
     nav {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
         margin: 70px 60px;
         border: 3px solid #494545;
-        width: auto;
         border-radius: 15px;
         padding: 2%;
         background-color: #808080;
@@ -25,15 +21,14 @@
         flex-wrap: wrap;
         text-align: center;
     }
-    
+
     nav a {
         display: flex;
-        align-items: center;
         padding: 10px 20px;
         text-decoration: none;
         font-size: 35px !important; 
     }
-    
+
     nav ul {
         display: flex;
         justify-content: space-around;
@@ -41,8 +36,9 @@
         padding: 0;
         margin: 0;
         width: 100%;
+        flex-wrap: wrap;
     }
-    
+
     ul li a {
         display: flex;
         color: #e8e8e8;
@@ -53,24 +49,24 @@
         font-size: 30px !important;
         flex-wrap: wrap;
     }
-    
+
     ul li a:hover {
         color: #f4f4f4;
     }
-    
+
     h1 {
         cursor: pointer;
     }
-    
+
     h2 {
         text-align: center;
         margin-top: 200px;
         font-family: "Playfair Display";
     }
-    
+
     h3 {
         font-family: "Playfair Display";
         text-align: center;
-    }
-    
+    }    
+
 }
